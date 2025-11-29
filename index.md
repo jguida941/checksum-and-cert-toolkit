@@ -7,7 +7,7 @@ Quick links for the assignment assets in this repository:
 - Submission template:
   [doc/templates/ChecksumVerificationTemplate.md](doc/templates/ChecksumVerificationTemplate.md)
 - Source code entry point:
-  [src/main/java/com/snhu/app/Checksum.java](src/main/java/com/snhu/app/Checksum.java)
+  [src/main/java/com/snhu/sslserver/ServerApplication.java](src/main/java/com/snhu/sslserver/ServerApplication.java)
 - Project configuration: [pom.xml](pom.xml)
 - Reading:
   [doc/readings/ProtectingSensitiveData.md](doc/readings/ProtectingSensitiveData.md)
