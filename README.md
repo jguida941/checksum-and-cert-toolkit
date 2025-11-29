@@ -19,4 +19,10 @@ message digest algorithm.
 ## Run locally
 
 - `./mvnw spring-boot:run`
-- Open the configured REST endpoint in your browser to view the checksum output.
+- Open `https://localhost:8443/hash` (accept the self-signed cert). You should
+  see your data string, the cipher algorithm name, and the checksum value.
+- If port 8443 is already in use, stop the process (for example,
+  `lsof -i :8443` then `kill <pid>`) or override the port with
+  `./mvnw spring-boot:run -Dspring-boot.run.arguments="--server.port=8444"`.
+- Or auto-launch with: `python3 scripts/autolaunch.py` (starts the server,
+  waits for port 8443, then opens the `/hash` page).
