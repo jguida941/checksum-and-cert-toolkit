@@ -12,7 +12,8 @@ message digest algorithm.
 - Protecting sensitive data reading:
   [doc/readings/ProtectingSensitiveData.md](doc/readings/ProtectingSensitiveData.md)
 - Changelog: [doc/CHANGELOG.md](doc/CHANGELOG.md)
-- Architecture decision records: [doc/adrs/](doc/adrs/)
+- Architecture decision records:
+  [doc/adrs/index.md](doc/adrs/index.md)
 - Quick links index: [index.md](index.md)
 
 ## Run locally

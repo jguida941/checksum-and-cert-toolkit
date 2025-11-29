@@ -9,6 +9,7 @@ All notable changes to this project are documented here.
 - Added ADR folder with template and guidance for recording decisions.
 - Reorganized docs into subfolders (requirements, templates, readings) for
   clarity and updated links.
+- Added ADR index for quick navigation of decision records.
 - Added a project README and changelog reference for easy navigation.
 - Replaced em dashes with ASCII hyphens in docs to avoid encoding surprises.
 - Initial repository setup, docs, and Spring Boot checksum service scaffold.

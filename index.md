@@ -11,7 +11,7 @@ Quick links for the assignment assets in this repository:
 - Project configuration: [pom.xml](pom.xml)
 - Reading:
   [doc/readings/ProtectingSensitiveData.md](doc/readings/ProtectingSensitiveData.md)
-- ADRs: [doc/adrs/](doc/adrs/)
+- ADR index: [doc/adrs/index.md](doc/adrs/index.md)
 
 Usage reminders:
 
