@@ -26,3 +26,6 @@ message digest algorithm.
   `./mvnw spring-boot:run -Dspring-boot.run.arguments="--server.port=8444"`.
 - Or auto-launch with: `python3 scripts/autolaunch.py` (starts the server,
   waits for port 8443, then opens the `/hash` page).
+
+## Example SHA-256 Checksum Output from /hash Endpoint
+  <img width="683" height="244" alt="Screenshot 2025-11-29 at 4 25 44 AM" src="https://github.com/user-attachments/assets/ee04e8c2-885d-4fd1-bce3-53e2cc809211" />
