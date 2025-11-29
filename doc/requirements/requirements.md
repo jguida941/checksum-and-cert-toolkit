@@ -46,6 +46,9 @@ Specifically, you must address the following rubric criteria:
     - Create a RESTFul route using the @RequestMapping method to generate and
       return the required information, including the hash value, to the secure
       web browser.
+  - Status: [x] Completed 2025-11-29 - implemented in
+    `src/main/java/com/snhu/sslserver/ServerApplication.java` with the `/hash`
+    endpoint returning the data string, algorithm name (SHA-256), and checksum.
 
 - Verification: Demonstrate that a hash value has been created for the unique
   text string that includes your first name and last name by executing the Java
@@ -57,3 +60,5 @@ Specifically, you must address the following rubric criteria:
   - Capture a screenshot of the secure web browser with your unique
     information and add it to the template provided. An example of the expected
     output is shown below.
+  - Status: [x] Completed 2025-11-29 - screenshot added to
+    `doc/templates/ChecksumVerificationTemplate.md` and referenced in README.

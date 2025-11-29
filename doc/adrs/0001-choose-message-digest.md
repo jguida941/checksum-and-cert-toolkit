@@ -14,12 +14,13 @@ collision-resistant choice.
 
 ## Decision
 
-Use SHA-256 (`MessageDigest.getInstance("SHA-256")`) as the checksum algorithm.
-It offers strong collision resistance, is widely supported in Java, and
-balances security with performance. We considered SHA-512 for a larger security
-margin but rejected it to avoid longer hashes and higher compute cost that are
-unnecessary for this use case. MD5 and SHA-1 are excluded due to known
-collision vulnerabilities.
+Use SHA-256 as the checksum algorithm. In code, this is captured in the
+`HASH_ALGORITHM` constant (`"SHA-256"`) and passed to
+`MessageDigest.getInstance(HASH_ALGORITHM)`. SHA-256 offers strong collision
+resistance, is widely supported in Java, and balances security with
+performance. We considered SHA-512 for a larger security margin but rejected it
+to avoid longer hashes and higher compute cost that are unnecessary for this
+use case. MD5 and SHA-1 are excluded due to known collision vulnerabilities.
 
 ## Consequences
 
@@ -28,8 +29,17 @@ collision vulnerabilities.
 - Keeps compatibility and performance good across typical Java deployments.
 - If future requirements demand a larger margin, SHA-512 can be substituted
   with minimal code changes.
+- Implementation details:
+  - Uses UTF-8 to turn the data string into bytes, then calls
+    `MessageDigest.digest` and converts the result to hex with `bytesToHex`.
+  - The `/hash` endpoint returns the input data, algorithm name, and checksum.
+  - `NoSuchAlgorithmException` remains declared on the handler method; if the
+    algorithm name ever changes to an unsupported value, the runtime will
+    surface that error instead of silently degrading security.
 
 ## References
 
 - Assignment requirements: `doc/requirements/requirements.md`
 - Recommendation text: `doc/templates/ChecksumVerificationTemplate.md`
+- Implementation: `src/main/java/com/snhu/sslserver/ServerApplication.java`
+  (`/hash` endpoint using SHA-256)
