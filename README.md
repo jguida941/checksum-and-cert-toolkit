@@ -49,4 +49,7 @@ certificates with Java Keytool.
   keytool -export -alias selfsigned -storepass ExamplePass123! \
     -file server.cer -keystore keystore.jks
   keytool -printcert -file server.cer
+  # Alternative macOS export form:
+  keytool -exportcert -alias selfsigned -keystore keystore.jks \
+    -storepass ExamplePass123! -file server.cer
   ```
