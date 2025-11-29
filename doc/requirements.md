@@ -16,7 +16,7 @@ Specifically, you must address the following rubric criteria:
     linked in the Supporting Materials section. The Java Security Standard
     Algorithm Names is a standard list of algorithm ciphers provided by Oracle.
   - Document your recommendation in the template provided.
-  - Status: [x] Completed 2025-11-29 — documented in
+  - Status: [x] Completed 2025-11-29 - documented in
     `doc/ChecksumVerificationTemplate.md`.
 
 - Justification: Justify your reasoning for the recommended algorithm cipher
@@ -25,7 +25,7 @@ Specifically, you must address the following rubric criteria:
     Consider what avoiding collisions means. Why is avoiding collisions
     important?
   - Document your reasoning in the template provided.
-  - Status: [x] Completed 2025-11-29 — documented in
+  - Status: [x] Completed 2025-11-29 - documented in
     `doc/ChecksumVerificationTemplate.md`.
 
 - Generate Checksum: Refactor the code to encrypt a text string and generate a

@@ -561,7 +561,7 @@ TLS 1.2 and 1.3 are the current state of the art at the time of this writing
 and are the ones you should use if you can. However, not all systems support
 these two protocols. You will likely encounter systems that support version 1.0
 of TLS and various versions of SSL. Try to stay away from SSL, and instead use
-one of the TLS versions—preferably the most modern version that is supported by
+one of the TLS versions-preferably the most modern version that is supported by
 your systems. One TLS 1.2 specification is RFC 5246; TLS 1.3 is RFC 8446.
 
 Recent JDKs already disable SSLv3 and often TLS 1.0/1.1 by default; use
