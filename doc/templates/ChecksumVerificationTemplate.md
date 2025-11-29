@@ -33,9 +33,4 @@ You will submit your refactored code to your instructor. Your instructor will
 review it and this document.
 
 ## 4. Verification
-
-Insert a screenshot below of the secure web browser with your unique
-information (data string, algorithm name, and checksum hash value). Replace the
-placeholder link with the actual screenshot path committed to this repository.
-
-![Screenshot placeholder](../images/hash-screenshot.png)
+<img width="826" height="382" alt="Screenshot 2025-11-29 at 4 28 00 AM" src="https://github.com/user-attachments/assets/96167256-c698-4424-b73f-6d066f6c8dd8" />
