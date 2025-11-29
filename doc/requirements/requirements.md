@@ -17,7 +17,7 @@ Specifically, you must address the following rubric criteria:
     Algorithm Names is a standard list of algorithm ciphers provided by Oracle.
   - Document your recommendation in the template provided.
   - Status: [x] Completed 2025-11-29 - documented in
-    `doc/ChecksumVerificationTemplate.md`.
+    `doc/templates/ChecksumVerificationTemplate.md`.
 
 - Justification: Justify your reasoning for the recommended algorithm cipher
   that avoids collisions.
@@ -26,7 +26,7 @@ Specifically, you must address the following rubric criteria:
     important?
   - Document your reasoning in the template provided.
   - Status: [x] Completed 2025-11-29 - documented in
-    `doc/ChecksumVerificationTemplate.md`.
+    `doc/templates/ChecksumVerificationTemplate.md`.
 
 - Generate Checksum: Refactor the code to encrypt a text string and generate a
   checksum verification.

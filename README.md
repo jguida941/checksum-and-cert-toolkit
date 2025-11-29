@@ -5,9 +5,12 @@ message digest algorithm.
 
 ## Docs
 
-- Requirements and rubric: [doc/requirements.md](doc/requirements.md)
-- Submission template: [doc/ChecksumVerificationTemplate.md](doc/ChecksumVerificationTemplate.md)
-- Protecting sensitive data reading: [doc/ProtectingSensitiveData.md](doc/ProtectingSensitiveData.md)
+- Requirements and rubric:
+  [doc/requirements/requirements.md](doc/requirements/requirements.md)
+- Submission template:
+  [doc/templates/ChecksumVerificationTemplate.md](doc/templates/ChecksumVerificationTemplate.md)
+- Protecting sensitive data reading:
+  [doc/readings/ProtectingSensitiveData.md](doc/readings/ProtectingSensitiveData.md)
 - Changelog: [doc/CHANGELOG.md](doc/CHANGELOG.md)
 - Architecture decision records: [doc/adrs/](doc/adrs/)
 - Quick links index: [index.md](index.md)

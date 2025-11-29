@@ -31,5 +31,5 @@ collision vulnerabilities.
 
 ## References
 
-- Assignment requirements: `doc/requirements.md`
-- Recommendation text: `doc/ChecksumVerificationTemplate.md`
+- Assignment requirements: `doc/requirements/requirements.md`
+- Recommendation text: `doc/templates/ChecksumVerificationTemplate.md`

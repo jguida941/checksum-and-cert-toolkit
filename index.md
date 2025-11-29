@@ -2,13 +2,15 @@
 
 Quick links for the assignment assets in this repository:
 
-- Requirements: [doc/requirements.md](doc/requirements.md)
+- Requirements:
+  [doc/requirements/requirements.md](doc/requirements/requirements.md)
 - Submission template:
-  [doc/ChecksumVerificationTemplate.md](doc/ChecksumVerificationTemplate.md)
+  [doc/templates/ChecksumVerificationTemplate.md](doc/templates/ChecksumVerificationTemplate.md)
 - Source code entry point:
   [src/main/java/com/snhu/app/Checksum.java](src/main/java/com/snhu/app/Checksum.java)
 - Project configuration: [pom.xml](pom.xml)
-- Reading: [doc/ProtectingSensitiveData.md](doc/ProtectingSensitiveData.md)
+- Reading:
+  [doc/readings/ProtectingSensitiveData.md](doc/readings/ProtectingSensitiveData.md)
 - ADRs: [doc/adrs/](doc/adrs/)
 
 Usage reminders:

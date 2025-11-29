@@ -7,6 +7,8 @@ All notable changes to this project are documented here.
 - Recorded ADR 0001 capturing the decision to use SHA-256 for checksum
   generation.
 - Added ADR folder with template and guidance for recording decisions.
+- Reorganized docs into subfolders (requirements, templates, readings) for
+  clarity and updated links.
 - Added a project README and changelog reference for easy navigation.
 - Replaced em dashes with ASCII hyphens in docs to avoid encoding surprises.
 - Initial repository setup, docs, and Spring Boot checksum service scaffold.
