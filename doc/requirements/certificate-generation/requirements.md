@@ -13,10 +13,14 @@ document the outputs.
   services.
   - Why would you want to use a CA for security?
   - What are the advantages of using a CA?
+  - Status: [x] Completed 2025-11-29 - documented via ADR 0002 and README
+    certificate section.
 - Certificate Generation: Use Java Keytool to generate a self-signed
   certificate (you are the CA).
   - Ensure Java/JDK is installed so `keytool` is available (no extra install).
   - Find your Java home to locate `keytool`/`keytool.exe`.
+  - Status: [x] Completed 2025-11-29 - commands run, outputs captured, and
+    documented in README with sample outputs.
 
 ## Commands to Run (macOS/Linux; update the password values)
 
